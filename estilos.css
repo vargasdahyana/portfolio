@@ -1,0 +1,339 @@
+body {
+    background-image: url(fondo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.barra-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+
+}
+
+.barra-nav1 li {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 1px;
+    background-color: rgba(99, 96, 96, 0.5);
+    border-radius: 3px;
+    border: 2px solid gray;
+}
+
+.barra-nav li:hover {
+    background-color: rgb(27, 26, 26);
+    box-shadow:0px 0px 12px rgba(255, 254, 254, 0.9);
+
+}
+
+.barra-nav1 li a {
+    color: beige;
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    
+
+}
+
+
+.encabezado {
+    display: flex;
+    padding: 25px;
+}
+
+.hola {
+    color: beige;
+    font-family: 'Jura', sans-serif;
+
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(129, 121, 121, 0.5);
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+
+.foto-perfil img {
+    margin: 25px;
+    max-width: 350px;
+
+}
+
+.btn {
+    font-family: 'Jura', sans-serif;
+    color: beige;
+    background-color: rgba(129, 121, 121, 0.5);
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 25px;
+
+}
+
+.btn:hover {
+    background-color: rgb(27, 26, 26);
+    color: rgb(241, 234, 234);
+    cursor: pointer;
+    box-shadow:0px 0px 5px rgba(255, 254, 254, 0.9);
+}
+
+.tit-conocimientos {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    color: beige;
+    font-family: 'Jura', sans-serif;
+    background-color: rgba(180, 165, 165, 0.3)
+}
+
+.etiqueta {
+    color: beige;
+    display: flex;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    padding: 25px;
+}
+
+.html {
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(83, 80, 80);
+    background-color: rgba(110, 104, 104, 0.3);
+    margin: 5px;
+    box-shadow: 0px 0px 7px rgba(255, 254, 254, 0.9);
+}
+.html:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+    transform: translateY(4%);
+
+}
+
+.css {
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(83, 80, 80);
+    background-color: rgba(110, 104, 104, 0.3);
+    margin: 5px;
+    box-shadow: 0px 0px 7px rgba(255, 254, 254, 0.9);
+}
+.css:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+    transform: translateY(4%);
+}
+
+.java {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(83, 80, 80);
+    background-color: rgba(110, 104, 104, 0.3);
+    margin: 5px;
+    box-shadow: 0px 0px 7px rgba(255, 254, 254, 0.9);
+}
+.java:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+    transform: translateY(4%);
+}
+.tit-proyectos{
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    color: beige;
+    font-family: 'Jura', sans-serif;
+    background-color: grey;
+    background-color: rgba(180, 165, 165, 0.3)
+}
+.proyectos-varios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    color: beige;
+    font-family: 'Jura', sans-serif;
+}
+.proyecto{
+    margin: 10px;
+    background-color: rgba(180, 165, 165, 0.3);
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.proyecto:hover{
+    background-color: rgb(27, 26, 26);
+    color: rgb(241, 234, 234);
+    cursor: pointer;
+    box-shadow:0px 0px 10px rgba(255, 254, 254, 0.9);
+}
+.tit-contacto{
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    color: beige;
+    font-family: 'Jura', sans-serif;
+    background-color: rgba(180, 165, 165, 0.3)
+}
+.contenido-contacto{
+    display: flex;
+    margin: 5px;
+}
+.texto-contacto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(97, 91, 91);
+    background-color: rgba(139, 131, 131, 0.3);
+    margin: 5px;
+    font-family: 'Jura', sans-serif;
+    color: beige;
+
+}
+.redes a{
+    display: flex;
+    border: 1px solid rgb(97, 91, 91);
+    background-color: rgba(139, 131, 131, 0.3);
+    justify-content: center;
+    flex-direction: column;
+    color: beige;
+    margin: 5px;
+    text-decoration:none;
+}
+.redes i {
+    display: flex;
+    margin: 5px;
+}
+.redes i:hover{
+    box-shadow:0px 0px 20px rgba(255, 254, 254, 0.9);
+}
+.redes1 a {
+    color: rgb(187, 187, 152);
+    
+}
+.redes1 i{
+    margin: 5px;
+}
+.redes1 i:hover{
+    box-shadow:0px 0px 20px rgba(255, 254, 254, 0.9);
+}
+.menu-ham i {
+    display: none;
+    justify-content: center;
+    align-items: end;
+    color: beige;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+.menu-ham:hover i {
+    box-shadow:0px 0px 5px rgba(255, 254, 254, 0.9);
+}
+.menu-hamb i {
+    display: none;
+    justify-content: center;
+    align-items: end;
+    color: beige;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+.menu-hamb:hover i {
+    box-shadow:0px 0px 5px rgba(255, 254, 254, 0.9);
+}
+
+.footer {
+    background-color: rgba(49, 49, 49, 0.3);
+    font-family: 'Jura', sans-serif;
+    font-size: 15px;
+}
+.hecho{
+    color: rgb(73, 72, 72);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 480px) {
+    .menu-ham i {
+        display: flex;
+    }
+    .menu-hamb i {
+        display: flex;
+        margin: 5px;
+    }
+    .barra-nav1 li {
+        display: none;
+    }
+    .foto-perfil{ 
+        display: none
+    }
+    .etiqueta{
+        flex-direction: column;
+    }
+    .redes1{
+        display: flex;
+        justify-content: center;
+    }
+    .redes{
+        display: none;
+    }
+    .foto-perfil img{
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px){
+    .barra-nav1 ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .barra-nav{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px;
+    }
+    .barra-nav1 ul li a{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .encabezado {
+        flex-direction: column;
+    }
+    .contenido-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .redes{
+        display: none;
+    }
+    .redes1{
+        display: flex;
+        justify-content: center;
+    }
+    .foto-perfil{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .foto-perfil img{
+        display: flex;
+        justify-content: center;
+        max-width: 400px;
+
+
+    }
+}
+
